@@ -59,6 +59,7 @@
   height: 51px;
   cursor: pointer;
   transition: 0.5s all;
+  border: none;
 }
 
 .button:hover {
@@ -128,6 +129,7 @@
   position: absolute;
   bottom: -10px;
   left: 0;
+  width: 100%;
 }
 .bold {
   font-weight: 700;
@@ -424,6 +426,6 @@
   display: block;
 }
 
-.menu-element {
+.footer .menu-element {
   margin-top: 10px;
 }

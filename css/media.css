@@ -1,0 +1,248 @@
+@media screen and (max-width: 1140px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .container {
+    width: 720px;
+  }
+
+  .title {
+    font-size: 44px;
+  }
+
+  .bold {
+    font-size: 60px;
+  }
+
+  .episodes__header {
+    align-items: center;
+  }
+
+  .episod {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .episod__info {
+    margin-top: 15px;
+  }
+
+  .person__wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .reviews__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .listen {
+    display: none;
+  }
+
+  .footer__menu {
+    min-width: auto;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .container {
+    width: 540px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .bold {
+    font-size: 42px;
+  }
+
+  .promo__wrapper {
+    flex-direction: column;
+  }
+
+  .promo__photo {
+    width: 50%;
+  }
+
+  .episodes {
+    padding-bottom: 50px;
+  }
+
+  .episodes__title {
+    font-size: 36px;
+  }
+
+  .person {
+    padding-bottom: 50px;
+  }
+
+  .person__img {
+    width: 70%;
+    height: 100%;
+  }
+
+  .subscribe {
+    padding-bottom: 50px;
+  }
+
+  .reviews {
+    padding-bottom: 50px;
+  }
+
+  .reviews__item {
+    padding: 30px;
+  }
+
+  .reviews__item-name {
+    font-size: 18px;
+  }
+  .reviews__item-titile {
+    font-size: 24px;
+  }
+  .subscribe__wrapper {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .container {
+    width: 90%;
+  }
+
+  .title {
+    line-height: 30px;
+    font-size: 26px;
+  }
+
+  .descr {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+
+  .above {
+    margin-top: 12px;
+  }
+
+  .header {
+    min-height: auto;
+  }
+
+  .header__logo {
+    margin: 0 auto;
+  }
+
+  .header .header__nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%);
+  }
+
+  .header .menu {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30vh;
+  }
+
+  .header .menu-element {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .header .menu-element a {
+    padding: 10px;
+  }
+
+  .header__logo {
+    padding: 15px 0 15px 0;
+  }
+
+  .promo {
+    padding-top: 0;
+  }
+  .promo__photo {
+    width: 90%;
+  }
+
+  .promo__info {
+    margin-left: 0;
+  }
+
+  .promo__subtitle {
+    margin-top: 40px;
+  }
+
+  .episodes {
+    padding: 30px 0;
+  }
+
+  .episod__img {
+    width: 100%;
+    max-height: 200px;
+  }
+
+  .episodes__header {
+    flex-direction: column;
+  }
+
+  .episod__info {
+    margin-left: 0;
+  }
+
+  .episod:first-child {
+    margin-top: 25px;
+  }
+
+  .episod {
+    padding: 30px;
+    margin-top: 15px;
+  }
+
+  .person__wrapper {
+    gap: 30px;
+  }
+
+  .person__btn {
+    transform: scale(0.7);
+  }
+
+  .subscribe__wrapper {
+    padding: 30px;
+  }
+
+  .subscribe .button {
+    margin-top: 15px;
+  }
+
+  .subscribe__form input {
+    margin: 0;
+  }
+
+  .reviews__wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .footer .main {
+    display: none;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .menu {
+    margin-top: 25px;
+  }
+}
