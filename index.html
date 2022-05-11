@@ -83,17 +83,17 @@
           </div>
           <nav class="header__nav">
             <ul class="menu">
-              <li class="menu-element"><a href="">Home</a></li>
-              <li class="menu-element"><a href="">Episodes</a></li>
-              <li class="menu-element"><a href="">About</a></li>
-              <li class="menu-element"><a href="">Contact</a></li>
+              <li class="menu-element"><a href="#home">Home</a></li>
+              <li class="menu-element"><a href="#episodes">Episodes</a></li>
+              <li class="menu-element"><a href="#about">About</a></li>
+              <li class="menu-element"><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
     <main class="page">
-      <section class="promo">
+      <section class="promo" id="home">
         <div class="container">
           <div class="promo__wrapper">
             <div class="promo__photo">
@@ -140,7 +140,7 @@
           </div>
         </div>
       </section>
-      <section class="episodes">
+      <section class="episodes" id="episodes">
         <div class="container">
           <div class="episodes__header">
             <h1 class="episodes__title">Latest episodes</h1>
@@ -196,7 +196,7 @@
           </div>
         </div>
       </section>
-      <section class="person">
+      <section class="person" id="about">
         <div class="container">
           <div class="person__wrapper">
             <div class="person__info">
@@ -219,7 +219,7 @@
           </div>
         </div>
       </section>
-      <section class="subscribe">
+      <section class="subscribe" id="contact">
         <div class="container">
           <div class="subscribe__wrapper">
             <div class="subscribe_info">
@@ -335,10 +335,10 @@
           </div>
           <div class="footer__menu">
             <ul class="menu main">
-              <li class="menu-element"><a href="">Home</a></li>
-              <li class="menu-element"><a href="">Episodes</a></li>
-              <li class="menu-element"><a href="">About</a></li>
-              <li class="menu-element"><a href="">Contact</a></li>
+              <li class="menu-element"><a href="#home">Home</a></li>
+              <li class="menu-element"><a href="#episodes">Episodes</a></li>
+              <li class="menu-element"><a href="#about">About</a></li>
+              <li class="menu-element"><a href="#contact">Contact</a></li>
             </ul>
             <ul class="menu">
               <li class="menu-element"><a href="">Style Guide</a></li>
@@ -379,5 +379,11 @@
         </div>
       </div>
     </footer>
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <script src="./js/script.js"></script>
   </body>
 </html>

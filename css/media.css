@@ -150,6 +150,10 @@
     transform: translateX(-100%);
   }
 
+  .header .active {
+    transform: translateX(0%);
+  }
+
   .header .menu {
     flex-direction: column;
     text-align: center;
@@ -244,5 +248,8 @@
 
   .footer .menu {
     margin-top: 25px;
+  }
+  .hamburger {
+    display: block;
   }
 }
