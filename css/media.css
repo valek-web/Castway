@@ -166,6 +166,7 @@
   }
   .header .menu-element a {
     padding: 10px;
+    font-size: 26px;
   }
 
   .header__logo {
@@ -251,5 +252,8 @@
   }
   .hamburger {
     display: block;
+  }
+  .bold {
+    font-size: 36px;
   }
 }

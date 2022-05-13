@@ -436,7 +436,7 @@
 
 .hamburger {
   position: absolute;
-  top: 20px;
+  top: 28px;
   right: 20px;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -459,6 +459,7 @@
 
 .hamburger_active {
   position: fixed;
+  transform: translateY(5px);
 }
 
 .hamburger_active span:nth-child(2) {
